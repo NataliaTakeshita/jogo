@@ -1,0 +1,92 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+text-decoration: none;
+}
+.todo{
+    font-size: 100%;
+    background-color:  lightcoral;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo{
+    height: 72px;
+
+}
+.c-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabeçalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.escrita{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo{position: absolute;
+    width: 572px;
+    height: 124px;
+    left: 12px;
+    top: 339px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    
+    color: #000000;
+    
+}
+
+.subtitulo{
+    position: absolute;
+    width: 472px;
+    height: 148px;
+    left: 62px;
+    top: 463px;
+    
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    
+    color: #000000;
+    
+}
+.imagem2{
+    
+position: absolute;
+width: 600px;
+height: 690px;
+left: 700px;
+top: 90px;
+
+background: url(Black_and_White_Gaming_Tiger_Logo__2_-removebg-preview.png);
+}
